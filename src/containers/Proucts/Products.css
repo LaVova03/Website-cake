@@ -1,0 +1,15 @@
+.Products {
+  position: relative;
+  text-align: center;
+}
+
+.wrap-basket {
+  position: fixed;
+  top: 7%;
+  left: 450px;
+  z-index: 999;
+}
+
+.wrap-card{
+  position: relative;
+}

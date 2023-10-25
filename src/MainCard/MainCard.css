@@ -1,0 +1,48 @@
+.card-header {
+    padding-top: 15px;
+    margin: 0 auto;
+    height: 80px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.card-header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header-right-body {
+    margin-right: 50px;
+}
+
+.phone {
+    position: absolute;
+    left: 875px;
+    top: 10px;
+}
+
+.main-body {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: var(--, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+
+.main-script {
+    margin-top: 10px;
+    color: var(--, #FFF);
+    font-family: monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%;
+}

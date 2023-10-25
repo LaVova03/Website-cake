@@ -1,0 +1,21 @@
+.button-next {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FED84C;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-back {
+    position: absolute;
+    left: 90px;
+    background: url(../../assets/Back.png);
+    width: 50px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+}
