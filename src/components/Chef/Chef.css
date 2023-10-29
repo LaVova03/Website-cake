@@ -1,0 +1,140 @@
+.wrap-chef {
+    position: relative;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.left-block-chef {
+    float: left;
+}
+
+.ask-chef {
+    display: flex;
+    width: 150px;
+    height: 37px;
+    padding: 10px 18px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #F2F6FA;
+    font-family: cursive;
+}
+
+.body-chef {
+    width: 440px;
+    color: #2E363E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.chef-list {
+    width: 440px;
+    text-align: left;
+    color: #2E363E;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.button-chef {
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #FED84C;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right-block-chef {
+    position: relative;
+    left: 465px;
+    width: 100px;
+    height: 390px;
+    text-align: center;
+    padding: 50px 200px;
+    background-color: #FED84C;
+}
+
+.woman-chef {
+    width: 382px;
+    position: absolute;
+    left: 81px;
+    top: -22px;
+}
+
+.woman-chef-berry {
+    top: -20px;
+    position: absolute;
+    left: 408px;
+    width: 110px;
+}
+
+.woman-chef-leaf {
+    top: 70px;
+    position: absolute;
+    left: 1px;
+    width: 110px;
+    transform: rotate(-0.174deg);
+}
+
+.name-chef {
+    border-radius: 5px;
+    position: absolute;
+    top: 370px;
+    left: -30px;
+    width: 185px;
+    align-self: stretch;
+    background-color: #2E363E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    color: white;
+    font-family: cursive;
+}
+
+.worker-chef {
+    height: 0px;
+    border-radius: 5px;
+    display: flex;
+    padding: 14px 0px;
+    align-items: center;
+    gap: 10px;
+    background: #F2F6FA;
+    color: black;
+    position: absolute;
+    top: 398px;
+    left: 19px;
+    width: 136px;
+    align-self: stretch;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    font-family: cursive;
+}
+
+.transit-img {
+    position: absolute;
+    left: 0px;
+    background: #081130;
+}

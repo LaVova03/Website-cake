@@ -13,6 +13,9 @@ import Img5 from '../../assets/img (5).png';
 import Img6 from '../../assets/img (6).png';
 import Img7 from '../../assets/img (7).png';
 import Img8 from '../../assets/img (8).png';
+import PhotoOrder from '../../components/PhotoOrder/PhotoOrder';
+import Chef from '../../components/Chef/Chef';
+import ClientsComments from '../../components/ClientsComments/ClientsComments';
 
 const Products = () => {
 
@@ -117,6 +120,9 @@ const Products = () => {
             <div className='wrap-card'>
                 <Button setBack={setBack} />
                 <CardProducts hendleOpen={hendleOpen} arrProducts={arrProducts} addNameCard={addNameCard} />
+                <PhotoOrder />
+                <Chef />
+                <ClientsComments />
             </div>
         </div>
     )

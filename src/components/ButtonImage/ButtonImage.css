@@ -1,0 +1,16 @@
+.wrap-button-userModal {
+    margin: 0 20px 20px 0;
+}
+
+.modal-img-close,
+.add-img-user {
+    cursor: pointer;
+    border-radius: 8px;
+    background: #FED84C;
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    font-weight: 600;
+}

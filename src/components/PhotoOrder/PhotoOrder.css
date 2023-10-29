@@ -1,0 +1,75 @@
+.photo-order {
+    background: #081130;
+    height: 910px;
+}
+
+.photo-order-grid {
+    top: 240px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.phone-order {
+    width: 590px;
+}
+
+.transit-img {
+    width: -webkit-fill-available;
+}
+
+.transit-img2 {
+    position: relative;
+    height: 249px;
+    overflow: hidden;
+    top: 50px;
+    width: -webkit-fill-available;
+}
+
+.order-ask {
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    width: 209px;
+    height: 20px;
+    font-weight: 700;
+    text-align: left;
+    font-family: cursive;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.berry-order {
+    width: 150px;
+    position: absolute;
+    top: -65px;
+    right: -265px;
+}
+
+.order-offer {
+    margin: 20px 0;
+    width: 481px;
+    color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.order-bottom-text {
+    width: 481px;
+    text-align: left;
+    color: white;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 143%;
+    letter-spacing: -0.2px;
+}

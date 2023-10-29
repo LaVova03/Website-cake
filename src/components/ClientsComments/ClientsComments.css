@@ -1,0 +1,145 @@
+.box-com {
+    margin: 100px 0;
+    position: relative;
+    top: 28px;
+}
+
+.first-com {
+    position: relative;
+    display: block;
+    padding-top: 12px;
+    background: #081130;
+    height: 500px;
+}
+
+.wrap-com {
+    margin: 50px 100px;
+    height: 430px;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.not-first-com {
+    display: none;
+}
+
+.second-com {
+    position: relative;
+    display: block;
+    padding-top: 12px;
+    background: #081130;
+    height: 500px;
+}
+
+.not-second-com {
+    display: none;
+}
+
+.third-com {
+    position: relative;
+    display: block;
+    padding-top: 12px;
+    background: #081130;
+    height: 500px;
+}
+
+.not-third-com {
+    display: none;
+}
+
+.comments-header {
+    position: relative;
+    margin-top: 150px;
+    font-family: cursive;
+    color: white;
+    background: #081130;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+
+.text-comment {
+    padding: 50px;
+}
+
+.com-next {
+    position: relative;
+    display: block;
+
+}
+
+.not-com-next {
+    display: none;
+}
+
+.com-before {
+    position: relative;
+    display: block;
+}
+
+.not-com-before {
+    display: none;
+}
+
+.photo-to-comment {
+    height: 300px;
+    max-width: 100%;
+    border-radius: 200px;
+    margin: 30px 30px 0px 30px;
+}
+
+.buttons-com {
+    padding: 0 400px 50px 400px;
+    background: #081130;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.com-next,
+.com-before {
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #FED84C;
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    font-weight: 600;
+    width: 120px;
+}
+
+.berry-com {
+    width: 110px;
+    position: absolute;
+    transform: rotate(179.826deg);
+    left: 73px;
+    top: 405px;
+}
+
+.leaf-com {
+    width: 100px;
+    position: absolute;
+    transform: rotate(179.826deg);
+    right: 100px;
+    top: 50px;
+}
+
+.transit2-com {
+    position: relative;
+    width: -webkit-fill-available;
+    background: #081130;
+    height: 200px;
+    top: -45px;
+}

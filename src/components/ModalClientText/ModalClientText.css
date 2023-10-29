@@ -1,0 +1,29 @@
+.modal-chef {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    left: 200px;
+    background-color: antiquewhite;
+    border: 6px double #000;
+}
+
+.not-modal-chef{
+    display: none;
+}
+
+.button-modal-chef {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    top: 300px;
+}
+
+.textarea-chef {
+    font-size: 15px;
+    margin: 10px;
+    width: 340px;
+    height: 275px;
+}

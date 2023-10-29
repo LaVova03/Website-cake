@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import Raspberries from '../../assets/berry.png';
 import Leaf from '../../assets/leaf.png';
-import MainCard from '../../MainCard/MainCard';
+import MainCard from '../../components/MainCard/MainCard';
 
 
 

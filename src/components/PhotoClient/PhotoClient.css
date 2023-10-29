@@ -1,0 +1,30 @@
+.photo-client {
+    position: absolute;
+    top: 115px;
+    border: 6px double #000;
+    margin: 20px 0;
+    display: block;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.not-photo-client {
+    display: none;
+}
+
+.img-user {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.button-photo-client {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    top: 215px;
+}

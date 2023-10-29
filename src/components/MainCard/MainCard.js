@@ -1,5 +1,5 @@
 import './MainCard.css';
-import Phone from '../assets/phone.png';
+import Phone from '../../assets/phone.png';
 
 const MainCard = () => {
     return (
